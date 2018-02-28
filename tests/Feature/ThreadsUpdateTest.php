@@ -58,4 +58,9 @@ class ThreadsUpdateTest extends TestCase
 
         $this->patch($thread->path(), [])->assertStatus(403);
     }
+
+    public function test_and_test()
+    {
+        return null;
+    }
 }
